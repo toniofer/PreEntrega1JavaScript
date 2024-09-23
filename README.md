@@ -1,1 +1,2 @@
 Proyecto correspondiente a la Pre Entrega 1 del curso JavaScript CODERHOUSE 2024
+Este proyecto consiste en un algoritmo que verifica que el código verificador de una cédula sea válido o no. Se le pide al usuario que ingrese un número válidod e cédula, sin puntos ni guiones, a través de un Prompt, se verifica que se ingrese un formato válido de cédula, y se llama a una función validar que devuelve true o false.

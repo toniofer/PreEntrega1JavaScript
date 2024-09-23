@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreEntrega1 JS</title>
+</head>
+<body>
+    <h1>Algoritmo de verificación de cédula de indentidad uruguaya</h1>
+
+    <p>Para calcular el dígito verificador de la cédula uruguaya se toman los primeros siete números
+        y se multiplican cada uno (respetando el lugar, es decir, primero x primero, segundo x el segundo, etc.) 
+        por el código 2987634. Luego se toma el resultado y se le busca el número mayor que termine en 0
+        y se le resta. Ej: 150 - 148 = 2. 
+        El número 2 es el dígito verificador para la cédula 1.234.567</p>
+
+
+    <script src="js/funciones.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
